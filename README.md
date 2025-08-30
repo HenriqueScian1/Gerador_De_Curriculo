@@ -1,7 +1,4 @@
-Aqui está seu texto transformado em um **README.md** no padrão usado em projetos do GitHub:
-
 ---
-
 # 📄 Gerador de Currículo Inteligente com Preview em Tempo Real
 
 Uma aplicação **React moderna** que permite aos usuários criar currículos profissionais com **preview instantâneo**.
@@ -129,9 +126,3 @@ Este é o **primeiro módulo** de um projeto em duas etapas, demonstrando concei
 * Indicação visual para campos vazios
 
 ---
-
-📌 **Status do Projeto:** 🚧 Em desenvolvimento
-
----
-
-Quer que eu também prepare um **bloco de instalação e execução** (ex: `git clone`, `npm install`, `npm run dev`) para deixar o README pronto para uso em repositório público?
