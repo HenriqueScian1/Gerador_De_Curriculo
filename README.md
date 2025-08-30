@@ -1,4 +1,3 @@
----
 # 📄 Gerador de Currículo Inteligente com Preview em Tempo Real
 
 Uma aplicação **React moderna** que permite aos usuários criar currículos profissionais com **preview instantâneo**.
@@ -123,6 +122,3 @@ Este é o **primeiro módulo** de um projeto em duas etapas, demonstrando concei
 
 * Atualização instantânea
 * Layout profissional do currículo
-* Indicação visual para campos vazios
-
----
