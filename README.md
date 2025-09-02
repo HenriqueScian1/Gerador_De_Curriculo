@@ -122,3 +122,67 @@ Este é o **primeiro módulo** de um projeto em duas etapas, demonstrando concei
 
 * Atualização instantânea
 * Layout profissional do currículo
+
+# 📄 CV Builder AI - Parte 2: Integração com Inteligência Artificial
+
+Projeto de continuação do **CV Builder AI**, agora com integração de **Inteligência Artificial** para **melhoria automática de textos** em currículos. Esta etapa foca em UX avançada, integração com APIs externas e funcionalidades interativas.
+
+---
+
+## 🚀 Funcionalidades - Parte 2
+
+### ✨ Botões Mágicos com IA
+- **Localização**: Ao lado de textareas como resumo e descrições de experiência.
+- **Funcionalidade**: Melhoria automática de textos usando IA.
+- **Tecnologias**: [OpenAI GPT-4](https://openai.com/) ou [Google Gemini](https://deepmind.google/technologies/gemini/).
+- **UX**: Estados de carregamento, animações e feedback visual.
+
+---
+
+## ✅ Requisitos Funcionais
+
+### 01 - Integração com IA
+- Botões "Melhorar" em campos de texto específicos.
+- Processamento assíncrono com feedback visual.
+- Melhoria contextual baseada no tipo de campo.
+- Fallback gracioso em caso de erro da API.
+
+### 02 - Melhorias de Texto com IA
+- **Resumo Profissional**: Tom mais profissional com palavras-chave relevantes.
+- **Descrições de Experiência**: Uso de verbos de ação e quantificação de resultados.
+- **Correções**: Ortografia, gramática e fluência textual.
+- **Otimização**: Maior densidade de informação e impacto comunicativo.
+
+### 03 - Estados e Feedback UX
+- Indicadores de carregamento (spinners).
+- Notificações (toasts) para sucesso ou erro.
+- Skeleton screens para carregamento de áreas.
+- Transições e animações suaves para feedback visual.
+
+---
+
+## 🧪 Requisitos Extras (Opcionais)
+
+### 📄 Exportação para PDF Profissional
+Funcionalidade opcional para exportar o currículo em PDF com design profissional.
+
+#### Funcionalidades PDF:
+- **Formato**: Layout A4 otimizado para impressão.
+- **Design**: Tipografia e espaçamento profissionais.
+- **Download**: Geração automática com nome de arquivo personalizado.
+- **Customização**: Suporte para temas de cores e layouts diferentes.
+
+#### Tecnologias PDF:
+- [`jsPDF`](https://github.com/parallax/jsPDF): Geração de PDFs no frontend.
+- [`html2canvas`](https://github.com/niklasvh/html2canvas): Captura de elementos HTML para renderização no PDF.
+
+---
+
+## 🎯 Objetivos do Projeto
+
+1. **Integrar APIs Externas** - Utilização de IA via OpenAI, Gemini, etc.
+2. **Gerenciar Estados de Loading** - Feedback visual para processamento assíncrono.
+3. **Criar Componentes Avançados** - Botões interativos, modais e ações dinâmicas.
+4. **Otimizar Experiência do Usuário (UX)** - Animações, mensagens, e responsividade.
+5. **Aplicar Boas Práticas de Segurança** - Uso de variáveis de ambiente e validação.
+6. **(Opcional)** Implementar Exportação em PDF - Geração de currículos profissionais diretamente do frontend.
